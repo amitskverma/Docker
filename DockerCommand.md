@@ -10,32 +10,32 @@
     7  docker container ls
     8  docker container ls -a
     9  docker stop 41fe34ce56b3  // to stop specfied iD container
-   10  docker container ls -a
-   11  docker stop 878d25748992 
-   12  docker stop bc9b6e2e7a8d
-   13  docker stop bc9b6e2e7a8d 312b8006f983 
-   14  docker stop 10bf4981b990
+    10  docker container ls -a
+    11  docker stop 878d25748992 
+    12  docker stop bc9b6e2e7a8d
+    13  docker stop bc9b6e2e7a8d 312b8006f983 
+    14  docker stop 10bf4981b990
        docker stop -f $(docker ps)
 
-   15  docker ps -a
-   16  docker rm -f $(docker ps -aq)
-   17  docker images
+    15  docker ps -a
+    16  docker rm -f $(docker ps -aq)
+    17  docker images
    
-   18  docker image ls
-   19  docker rmi ubuntu
-   20  docker pull nginx:1.14-alphine
-   21  docker pull nginx:1.14-alpine
-   22  docker run -d --name webapp nginx:1.14-alpine
-   23  docker ps -a
-   24  docker rmi $(docker images)
-   25  docker image
-   26  docker images\\n
-   27  docker rmi 8a2fb25a19f5\n
-   28  docker rmi 8a2fb25a19f5 -f\n
-   29  docker rmi -f  8a2fb25a19f5\n
-   30  history
-   31  docker stop d7e68c947e8d
-   32  docker rmi -f  8a2fb25a19f5\n
+    18  docker image ls
+    19  docker rmi ubuntu
+    20  docker pull nginx:1.14-alphine
+    21  docker pull nginx:1.14-alpine
+    22  docker run -d --name webapp nginx:1.14-alpine
+    23  docker ps -a
+    24  docker rmi $(docker images)
+    25  docker image
+    26  docker images\\n
+    27  docker rmi 8a2fb25a19f5\n
+    28  docker rmi 8a2fb25a19f5 -f\n
+    29  docker rmi -f  8a2fb25a19f5\n
+    30  history
+    31  docker stop d7e68c947e8d
+    32  docker rmi -f  8a2fb25a19f5\n
 
 
 
